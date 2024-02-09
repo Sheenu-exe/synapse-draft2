@@ -2,6 +2,7 @@
 import "animate.css";
 import { LuBrainCircuit } from "react-icons/lu";
 import { useAuth } from './useAuth'; // Adjust the path as necessary
+import "./Comp.css"
 export const Background = () => {
     const { currentUser } = useAuth();
     console.log(currentUser.displayName)
