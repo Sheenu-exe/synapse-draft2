@@ -40,3 +40,97 @@ div.inputbox{
 .font-open-sans {
   font-family: 'Open Sans', sans-serif;
 }
+@media screen and (max-width:480px) {
+    .subtitle{
+        font-size: 1.5rem;
+    }
+    .title{
+        font-size: 4.5rem;
+    }
+    .cardbody{
+        width:47%;
+        height:25vh;
+        margin: 0;
+    }
+    .cardbodybig{
+        width:100vw;
+        margin: 0;
+        height: 100vh;
+        position: fixed;
+        top:0;
+        left:0;
+        padding: 10px;
+    }
+    .successalert{
+        left: 20%;
+    }
+    .signinpage{
+        flex-direction: column-reverse;
+        height:100vh
+    }
+    .signleft{
+        width: 100vw;
+        height: 50vh;
+        display: none;
+    }
+    .signRight{
+        width:100vw;
+        height: 100vh;
+        background: url("https://images.rawpixel.com/image_600/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjExNDItMDA2Yy14LmpwZw.jpg");
+    }
+    .minisub{
+        display:none;
+    }
+    .studyguy{
+        height:50vh
+    }
+    .signtitle{
+        color: white;
+        text-shadow: 1px 1px 3px black;
+        text-align: center;
+    }
+    .logo{
+        text-shadow: 1px 1px 3px black;
+        color: white;
+    }
+    .signsubtit{
+        color: white;
+        text-shadow: 1px 1px 3px black;
+        text-align: center;
+    }
+    .cardsignin{
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        width: 90vw;
+    }
+    .or{
+        color: white;
+        text-shadow: 1px 1px 3px black;
+    }
+    .closeinput{
+        top:80px
+    }
+    .deleterfull{
+        right:10px;
+        margin: 0;
+    }
+    .logobig{
+        margin:10px
+    }
+    .btnhandler{
+        right:15px;
+        bottom: 15px;
+    }
+    .delshort{
+        font-size: 25px;
+    }
+    .cardtitle{
+        font-size: 40px;
+    }
+    .carddesc{
+        font-size: 20px;
+    }
+}
