@@ -9,7 +9,7 @@ import { FaRunning } from 'react-icons/fa';
 import { MdDelete } from "react-icons/md";
 import { collection, addDoc, getDocs, query, where, deleteDoc, doc } from 'firebase/firestore';
 import { Success } from './success';
-
+import "./Comp.css"
 function Foreground() {
   const [cards, setCards] = useState([]);
   const [showInput, setShowInput] = useState(false);
