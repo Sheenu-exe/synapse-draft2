@@ -12,6 +12,7 @@ import Cookies from "js-cookie";
 import { FaGoogle } from "react-icons/fa";
 import { LuBrainCircuit } from "react-icons/lu";
 import { Alerter } from "./alerter";
+import "./Comp.css"
 import Study from "../imgs/studying-and-learning-online-concept-illustration-free-vector-Photoroom.png-Photoroom.png";
 
 const SignIn = () => {
