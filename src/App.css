@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: 'Urbanist', sans-serif;;
+}
+.inputholder{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#dark{
+    background-color: black;
+}
+html{
+    overflow-x: hidden;
+}
+div.inputbox{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.closeinput{
+    text-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px;
+}
+.alerter{
+    animation-duration: 0.5s;
+}
+.signleft{
+    background: url("https://images.rawpixel.com/image_600/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjExNDItMDA2Yy14LmpwZw.jpg");
+    background-size: cover;
+}
+.signRight{
+    background-color: #fdf4e4;
+}
+.success{
+    animation-duration: 1s;
+}
+/* Add this to your App.css or a relevant CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+/* Example font classes */
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.font-open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
