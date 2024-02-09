@@ -32,10 +32,7 @@ div.inputbox{
 .success{
     animation-duration: 1s;
 }
-/* Add this to your App.css or a relevant CSS file */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
 
-/* Example font classes */
 .font-roboto {
   font-family: 'Roboto', sans-serif;
 }
