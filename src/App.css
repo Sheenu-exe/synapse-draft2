@@ -43,7 +43,7 @@ div.inputbox{
 }
 
 }
-@media screen and (max-width:400px) {
+@media (max-width: 480px){
     .subtitle{
         font-size: 1.5rem;
     }
